@@ -1,0 +1,46 @@
+{
+    "name": "starter",
+    "version": "0.10.0",
+    "author": "Michał Frąckiewicz <info@lvlup.pro>",
+    "main": "index.html",
+    "single-instance": true,
+    "nodejs": true,
+    "additional_trust_anchors": "",
+    "user-agent": "",
+    "inject-js-end": "",
+    "keywords": [],
+    "window": {
+        "frame": false,
+        "toolbar": false,
+        "resizable": false,
+        "fullscreen": false,
+        "title": "starter",
+        "always-on-top": false,
+        "transparent": false,
+        "height": 500,
+        "exe_icon": "",
+        "visible": true,
+        "as_desktop": false,
+        "position": "",
+        "show_in_taskbar": true,
+        "mac_icon": "",
+        "width": 800,
+        "icon": ""
+    },
+    "dependencies": {
+        "decompress-zip": "*",
+        "mkdirp": "*",
+        "httpreq": "*",
+        "checksum": "*",
+        "async": "*",
+        "fs-extra": "*",
+        "bootstrap": "twbs/bootstrap#16b48259a62f576e52c903c476bd42b90ab22482",
+        "bootswatch": "thomaspark/bootswatch#15748399fcd2d06b58206cfcb4b7560cf7243637",
+        "GALocalStorage": "git+https://github.com/SystemZ/GALocalStorage.git"
+    },
+    "webkit": {
+        "page-cache": false,
+        "java": false,
+        "plugin": false
+    }
+}

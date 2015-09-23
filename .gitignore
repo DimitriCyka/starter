@@ -1,0 +1,8 @@
+/build
+/node_modules/
+/mc/
+/logs/
+/v8.log
+/profile.json
+/nw/
+/nbproject/

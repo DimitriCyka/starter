@@ -1,6 +1,6 @@
 {
     "name": "starter",
-    "version": "0.10.0",
+    "version": "0.11.0",
     "author": "Michał Frąckiewicz <info@lvlup.pro>",
     "main": "index.html",
     "single-instance": true,

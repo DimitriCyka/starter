@@ -13,6 +13,7 @@ cp -r lib src node_modules index.html package.json build/linux64/
 rsync nw/linux64/icudtl.dat build/linux64/icudtl.dat
 rsync nw/linux64/nw build/linux64/nw
 rsync nw/linux64/nw.pak build/linux64/nw.pak
+rsync -r assets/ build/linux64/assets/
 echo "Build for linux64 completed"
 
 #win32
@@ -28,4 +29,5 @@ cp -r lib src node_modules index.html package.json build/win32/
 rsync nw/win32/icudtl.dat build/win32/icudtl.dat
 rsync nw/win32/nw.exe build/win32/starter.exe
 rsync nw/win32/nw.pak build/win32/nw.pak
+rsync -r assets/ build/win32/assets/
 echo "Build for win32 completed"
